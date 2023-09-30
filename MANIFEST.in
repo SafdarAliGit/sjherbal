@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sjherbal *.css
+recursive-include sjherbal *.csv
+recursive-include sjherbal *.html
+recursive-include sjherbal *.ico
+recursive-include sjherbal *.js
+recursive-include sjherbal *.json
+recursive-include sjherbal *.md
+recursive-include sjherbal *.png
+recursive-include sjherbal *.py
+recursive-include sjherbal *.svg
+recursive-include sjherbal *.txt
+recursive-exclude sjherbal *.pyc
